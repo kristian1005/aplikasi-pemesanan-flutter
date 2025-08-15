@@ -1,0 +1,25 @@
+name: uts_pemesanan
+description: Aplikasi Pemesanan Makanan untuk UTS
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - lib/assets/images/ayam_kentucky.png
+  - lib/assets/images/ikan_arsik.png
+  - lib/assets/images/nasi_padang.png
